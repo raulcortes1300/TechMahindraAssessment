@@ -66,7 +66,7 @@ const DataTable: React.FC = () => {
   }, [page, deletedUserIds, filter]);
 
   return (
-    <div>
+    <div data-testid="data-table-container">
       <div>
         <FilterInput onFilterChange={handleFilterChange} filterValue={filter} />
       </div>
