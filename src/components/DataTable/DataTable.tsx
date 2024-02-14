@@ -68,7 +68,6 @@ const DataTable: React.FC = () => {
   return (
     <div>
       <div>
-        <label htmlFor="filterInput">Filter:</label>
         <FilterInput onFilterChange={handleFilterChange} filterValue={filter} />
       </div>
       <table>
